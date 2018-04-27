@@ -1,0 +1,165 @@
+*{margin:0;padding:0}
+html {height:100%;margin-bottom:1px;}
+body {
+	font: 12px "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	text-align: left;
+	background: #2d0700 url(lay/bg_contain.jpg) repeat-x top;
+	color: #fff;
+}
+#container{
+margin:auto; width:1000px;
+	background: url(lay/intest.jpg) no-repeat top;
+}
+#header{
+	width: auto;
+	padding: 70px 0 10px 25px;
+	color: #fdc7c1;
+}
+
+
+#page{
+	width:auto;
+	padding:25px 5px 25px 5px;
+	background: url(lay/corpo1.png) no-repeat top;
+	min-height:520px;
+}
+
+
+#left {
+	float:left;
+	width:250px;
+}
+#right {
+	width:auto;
+	margin-left:300px;
+	color:#000;
+}
+
+#footer {
+	clear: both;
+	color:#fff;
+	padding:10px;
+	/*
+	margin-top:-1px;
+	margin-left:1px;
+	padding:25px 0 40px 0;
+	*/
+	/*padding: 10px;*/
+	text-align: center;
+	/*background: url(lay/fondo.png) no-repeat top;*/
+	/*background: url(lay/bg_footer.png);*/
+	/*border-top: 1px solid #CCCCCC;*/
+}
+
+ /***************************** menù ****************************/
+#left ul {
+	font-size: 20px;
+	font-weight: bold;
+	list-style: none;
+	margin: 1px 1px 25px 25px;
+}
+
+#left li a, #left li a:hover{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: -1px;
+	padding: 15px 20px 2px 0px;	
+	margin-bottom: 1px;
+	border-bottom: 1px dotted #fa6858;
+}
+#left li a:hover{
+	display: block;
+	color: #ffb355;
+}
+
+
+ /***************************** paragrafi ****************************/
+img,img a,img a:hover{
+	border:0
+}
+
+p {padding:75px;
+	 font-size:14px;
+	 /*font-weight: bold;*/
+	 line-height: 1.5em;
+	 }
+
+h1 {
+   visibility: hidden;
+}
+
+h2 {
+	text-align: right;
+	margin: -10px 40px 40px 0px;
+	font-size: 1.5em;
+	color: #d9ecff;
+	/*font-style: italic;*/
+	font-weight: bold;
+}
+
+
+
+
+a:link,a:visited,a:active {
+	color: #ff991c;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color: #00c1c4;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:active, a:focus{
+outline:none;
+}
+
+
+.imgsx {float: left;
+            margin-right: 15px;}
+				
+.imgdx {float: right;
+            margin-left: 15px;}
+
+				/* tabelle */
+table {
+table-layout:fixed; 
+width:100%; 
+border-collapse: separate;
+border-spacing: 0px; 
+empty-cells: show;
+margin-bottom:25px;
+}
+td {padding-right:2px; vertical-align:middle}
+.vtop{
+	vertical-align: top;
+}
+
+				/* form */
+form{
+	font: 12px "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+}
+form p{
+	text-align:left;
+	padding:0;
+}
+input, textarea{
+	padding:5px;
+	font-size:14px;
+	margin-bottom:25px;
+	border:1px solid #ddd
+}
+.label{
+	text-align: right;
+	color: #999;
+	padding-top:10px;
+}
+.invia{
+	color: #009f01;
+	font-size:24px;
+	border:1px solid #fff;
+	border-bottom:4px solid #ccc;
+	border-right:3px solid #eee;
+}
+

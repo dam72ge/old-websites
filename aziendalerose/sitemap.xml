@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+
+   <url>
+      <loc>http://www.aziendalerose.it/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <url>
+      <loc>http://www.aziendalerose.it/dove-siamo/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.9</priority>
+   </url>
+
+
+   <url>
+      <loc>http://www.aziendalerose.it/la-carne/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.aziendalerose.it/gli-ortaggi/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.aziendalerose.it/fotogallery/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.aziendalerose.it/contatti/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+</urlset>
