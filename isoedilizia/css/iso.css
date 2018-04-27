@@ -1,0 +1,191 @@
+*{margin:0;padding:0}
+html {height : 100%;margin-bottom : 1px;}
+body {
+	font-family: "Trebuchet MS", "Lucida Sans", "Lucida Sans Unicode", Arial, sans-serif;
+	color: #777;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: justify;
+	line-height: 1.75em;
+	background: #fff;
+}
+
+/* id principali */ 
+#contain{margin:auto;width:760px;}
+
+#navbar{
+   font-size:16px;
+	position: relative;
+	text-align: right;
+	width: auto;
+	margin-top: 40px;
+	padding-right:10px;
+	color: #7ed67f;
+   font-weight:bold;
+	font-variant: small-caps;
+}
+#navbar span{color:#444}
+#navbar a, #navbar a:hover{color:#00ac72;text-decoration:none}
+#navbar a:hover{
+	color:#f00;
+}
+
+#header{
+	margin-bottom:25px;
+	padding:0px;
+	/*padding: 40px 25px 40px 25px;*/
+	width: auto;
+	text-align: center;
+	background: url(../images/logo.png) no-repeat;
+	height:200px;
+}
+
+#footer{
+	/*background-color: #00ac72;*/
+	margin: 5px 0px 0px 0px;
+	padding: 25px;
+	width: auto;
+	text-align: left;
+	line-height: 1.5em;
+	color: #fff;
+	background: url(../images/footer.png) no-repeat;
+	height:100px;
+}
+#footer a,#footer a:hover,#footer a:focus{
+	color: yellow;
+	text-decoration: none;
+}
+#footer a:hover{color:#000}
+
+
+/* id pagina: layout base */
+#corpo{float:left; width:450px}
+#colonna{position: relative; margin-left:490px; width:auto}
+
+/* link default */
+a, a:hover{
+   font-size:16px;
+	color: #007df4;
+	text-decoration: underline;
+}
+a:hover{
+   font-size:16px;
+  text-decoration:none;
+}
+
+
+/* immagini */
+
+img{
+  border: none;
+}
+.imgdx{
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+.imgsx{
+  float:left;
+  margin-right:25px;
+  margin-bottom:10px;
+}
+
+.bordo{
+	border: 1px solid #b7dcff;
+	margin:0;
+	padding:10px;
+}
+
+.thumb {
+	margin:0;
+	padding:10px;
+	width: 90%;
+	height: 90%;
+}
+
+/* tabelle */
+table {
+table-layout:fixed; 
+width:100%; 
+border-collapse: separate;
+border-spacing: 0px; 
+empty-cells: show
+}
+td {padding:0px 20px 10px 0px; vertical-align:top}
+
+/* hr */
+hr
+{
+border: 0px;
+background: #bbb;
+color: #bbb;
+height: 1px;
+margin-bottom:10px;
+}
+
+/* headers */
+h1 {
+	border-top:1px solid #b7dcff;
+	border-left:20px solid #b7dcff;
+	padding: 20px 0px 10px 20px;
+	color: #00ac72;
+   background:#f9f9f9;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: -1px;
+	line-height: 1em;
+	font-variant: small-caps;
+}
+h2 {
+	margin:25px 0px 25px 0px;
+	padding:10px;
+	color: #00999b;
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 1em;
+	text-align:center;
+	font-variant: small-caps;
+}
+
+/* testi e stili */
+p{
+	border-left: 2px solid #b7dcff;
+	border-top: 1px solid #eee;
+	margin-bottom: 25px;
+	padding: 40px;
+	background: #ffffdf;
+}
+b{
+	color:#000;
+}
+
+/* liste */
+ul {
+   margin:10px 0 25px 0;
+   padding:0;
+	line-height: 1.2em;
+	font-size:16px;
+	text-align:left;
+	list-style: none;
+}
+li,li a,li a:hover {
+   display: block;
+   margin-bottom:5px;
+	text-decoration: none;
+	color: #444;
+	font-weight:bold
+}
+li a {
+	padding: 10px;
+	background: #ecfbfb;
+	border-left: 20px solid #00ac72;
+	color: #00ac72;
+}
+li a:hover {
+	padding: 10px;
+	border-left: 20px solid  #00999b;
+	background: #00ac72;
+	color: #fff;
+}
+
+

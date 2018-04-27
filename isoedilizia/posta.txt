@@ -1,0 +1,55 @@
+	caselle di posta attivate:
+
+
+casella:	postmaster@isoedilizia.it
+
+password:	spf7z3ks
+
+
+
+casella:	info@isoedilizia.it
+
+password:	infoiso
+
+
+
+casella:	giorgio@isoedilizia.it
+
+password:	giorgio
+
+
+
+casella:	isoedilizia@isoedilizia.it
+
+password:	isoedilizia
+
+
+
+------
+
+
+	per la gestione on line della posta:
+
+
+http://webmaildomini.aruba.it/
+
+
+------
+
+
+	parametri per outlook express:
+
+Indirizzo server posta in arrivo : pop3.isoedilizia.it
+
+Indirizzo server posta in uscita : smtp.isoedilizia.it
+
+
+Per quanto rigurda il Server della posta in uscita (SMTP) è necessario selezionare 
+la voce 'Autenticazione del server necessaria', utilizzando come impostazioni le stesse 
+della posta in arrivo.
+
+Per maggiori dettagli, è disponibile la Guida completa alla configurazione su :  
+
+http://vademecum.aruba.it 
+
+nella categoria 'Configurazioni', sezione 'Client di posta'

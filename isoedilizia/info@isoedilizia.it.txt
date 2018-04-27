@@ -1,0 +1,13 @@
+info@isoedilizia.it
+
+password:
+infoiso
+
+nomereale:
+isoedil
+
+
+-----
+webmail - gestione posta dal sito:
+
+http://webmaildomini.aruba.it/
